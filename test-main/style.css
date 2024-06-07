@@ -25,8 +25,6 @@ header{
     height:60px ;
     padding:10px;
     display: flex;
-
-
 }
 
 .navegacao{
@@ -43,7 +41,17 @@ header{
     text-decoration: none;
     display: flex;
     color: #2028F2;
-    
-
 }
+
+.itens-navagacao{
+    display: flex;
+}
+
+.linha-azul{
+    background-color: #2028F2;
+    width: 77px;
+    height: 953.5px;
+    
+}
+
 
