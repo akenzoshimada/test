@@ -6,6 +6,17 @@
 body{
     background-color: #E5E4F7;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main{
+    min-height: calc(100vh - 80px);
+    max-width: 1300px;
+    width: 100% - 87px;
+    margin-left: 87px;
 }
 
 header{
@@ -38,7 +49,6 @@ header{
 }
 
 .ancora-navegacao{
-    display: flex;
     text-decoration: none;
     color: #2028F2;
 }
@@ -48,12 +58,19 @@ header{
 }
 
 .linha-azul{
-    display: flex;
     background-color: #2028F2;
     width: 77px;
     height: 85vh;
     left: 10px;
     top:80px;
     position: absolute;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80vh, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80vh, 0% 100%);}
+
+#colegio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px;
 }
